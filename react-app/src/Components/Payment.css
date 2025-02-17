@@ -1,0 +1,77 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(19, 19, 52);
+    color: white;
+    text-align: center;
+  }
+  
+  .payment-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    width: 320px;
+    text-align: center;
+  }
+  
+  .payment-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .wallet-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+  
+  .connect-btn, .pay-btn, .cancel-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .connect-btn {
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+  }
+  .connect-btn:hover {
+    background-color: #ffd633;
+  }
+  
+  .pay-btn {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+  }
+  .pay-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+  }
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .loading {
+    font-size: 14px;
+    color: #ffcc00;
+    margin-top: 10px;
+  }
+  
